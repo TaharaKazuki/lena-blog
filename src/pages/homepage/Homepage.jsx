@@ -1,5 +1,6 @@
 import { useLocation } from "react-router";
 import Header from '../../components/header/Header'
+import Posts from "../../components/posts/Posts";
 
 const Homepage = () => {
   const location = useLocation()
@@ -9,7 +10,7 @@ const Homepage = () => {
     <>
       <Header />
       <div className="home">
-
+        <Posts />
       </div>
     </>
   )

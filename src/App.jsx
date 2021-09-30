@@ -7,7 +7,14 @@ const App = () => {
   return (
     <Router>
       <Topbar />
-      <Homepage />
+      <Switch>
+        <Route exact path="/">
+          <Homepage />
+        </Route>
+        <Route path="/posts">
+          <Homepage />
+        </Route>
+      </Switch>
     </Router>
   )
 }
