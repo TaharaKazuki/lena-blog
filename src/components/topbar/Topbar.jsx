@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import './topbar.css'
+import './topbar.scss'
 
 const Topbar = () => {
   const user = true
