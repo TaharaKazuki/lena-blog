@@ -1,11 +1,11 @@
 .post {
-  width: 385px;
+  width: 495px;
   margin: 0px 25px 40px 25px;
   display: flex;
   flex-direction: column;
 
   &__img {
-    width: 385px;
+    width: 495px;
     height: 280px;
     object-fit: cover;
     border-radius: 7px;
@@ -18,7 +18,7 @@
   }
 
   &__cat {
-    font-family: "Varela Round", Arial, Helvetica, sans-serif;
+    font-family: 'Varela Round', Arial, Helvetica, sans-serif;
     font-weight: 400;
     font-size: 11px;
     color: #be9656;
@@ -29,7 +29,7 @@
   }
 
   &__title {
-    font-family: "Josefin Sans", Arial, Helvetica, sans-serif;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
     font-size: 24px;
     font-weight: 900;
     margin-top: 15px;
