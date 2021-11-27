@@ -1,6 +1,6 @@
 import React from 'react'
-import Topbar from './components/topbar/Topbar';
-import Homepage from './pages/homepage/Homepage';
+import Topbar from './components/topbar/Topbar'
+import Homepage from './pages/homepage/Homepage'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 const App = () => {
@@ -19,4 +19,4 @@ const App = () => {
   )
 }
 
-export default App;
+export default App

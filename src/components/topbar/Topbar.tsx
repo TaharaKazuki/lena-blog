@@ -2,7 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import './topbar.scss'
 
-const Topbar = () => {
+const Topbar: React.FC = () => {
   const user = true
   return (
     <div className="top">
@@ -54,7 +54,6 @@ const Topbar = () => {
         )}
         <i className="top__searchIcon fas fa-search"></i>
       </div>
-      
     </div>
   )
 }

@@ -1,14 +1,10 @@
-import { Link } from "react-router-dom";
+import { Link } from 'react-router-dom'
 import './post.scss'
 
-const Post = ({img}) => {
+const Post: React.FC<{ img: string }> = ({ img }) => {
   return (
     <div className="post">
-      <img
-        className="post__img"
-        src={img}
-        alt={`${img}`}
-      />
+      <img className="post__img" src={img} alt={`${img}`} />
       <div className="post__info">
         <div className="post__cats">
           <span className="post__cat">

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 import './sidebar.scss'
 
-const Sidebar = () => {
+const Sidebar: React.FC = () => {
   return (
     <div className="sidebar">
       <div className="sidebar__item">
